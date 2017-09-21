@@ -1,0 +1,25 @@
+.navContainer {
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0px;
+  margin-top: 1em;
+}
+
+.navContainer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav li {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background: none;
+}

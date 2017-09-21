@@ -1,0 +1,25 @@
+.centeredContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.innerContainer {
+  max-width: 500px;
+}
+
+.largeHeader {
+  color: #4a90e2;
+  font-weight: 100;
+  font-size: 80px;
+  margin-top: 80px;
+  text-align: center;
+}
+.subHeader {
+  color: #4a90e2;
+  font-size: 25px;
+  text-align: center;
+  line-height: 40px;
+  font-style: italic;
+}

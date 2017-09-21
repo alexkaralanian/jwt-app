@@ -1,0 +1,59 @@
+.signupRedirect {
+  margin-top: 15px;
+}
+
+.signin,
+.google,
+.signup,
+.input-group {
+  width: 300px;
+}
+
+.borderBox {
+  margin-top: 5%;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 1px #999999;
+}
+
+.loginFormHeader {
+  display: table;
+  margin: 0 auto;
+}
+
+.loginIcon {
+  border: 1px solid gray;
+  background-color: #ccc;
+  margin: 15px 0 35px 0;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
+.loginIcon i {
+  margin-top: 24%;
+}
+
+.signupRedirect {
+  text-align: center;
+}
+
+.form-group input {
+  border-radius: 1px;
+}
+
+.input-group-addon {
+  border-radius: 1px;
+  width: 40px;
+}
+
+.google {
+  border-radius: 1px;
+}
+
+.btn-social > :first-child {
+  width: 40px;
+}

@@ -1,0 +1,523 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Login Component renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="container"
+>
+    <div
+        className="centeredContainer"
+    >
+        <div
+            className="borderBox "
+        >
+            <div
+                className="loginFormHeader"
+            >
+                <div
+                    className="loginIcon"
+                >
+                    <i
+                        className="fa fa-shield fa-5x"
+                    />
+                </div>
+            </div>
+            <form
+                id="login"
+                onSubmit={[Function]}
+            >
+                <div
+                    className="form-group"
+                >
+                    <div
+                        className="input-group"
+                    >
+                        <div
+                            className="input-group-addon"
+                        >
+                            <i
+                                className="fa fa-envelope"
+                            />
+                        </div>
+                        <input
+                            className="form-control"
+                            name="email"
+                            onChange={[Function]}
+                            placeholder="Email"
+                            type="text"
+                            value=""
+                        />
+                    </div>
+                </div>
+                <div
+                    className="form-group"
+                >
+                    <div
+                        className="input-group"
+                    >
+                        <div
+                            className="input-group-addon"
+                        >
+                            <i
+                                className="fa fa-lock fa-1x"
+                            />
+                        </div>
+                        <input
+                            className="form-control"
+                            name="password"
+                            onChange={[Function]}
+                            placeholder="Password"
+                            type="password"
+                            value=""
+                        />
+                    </div>
+                </div>
+                <div
+                    className="buttonGroup"
+                >
+                    <div
+                        className="form-group buttonGroup"
+                    >
+                        <input
+                            className="signin btn btn-primary"
+                            type="submit"
+                            value="Sign In"
+                        />
+                    </div>
+                </div>
+            </form>
+            <div>
+                <button
+                    className="google btn btn-social btn-google"
+                    onClick={undefined}
+                >
+                    <span
+                        className="fa fa-google"
+                    />
+                    Login With Google
+                </button>
+            </div>
+            <div>
+                <p
+                    className="signupRedirect"
+                >
+                    <Link
+                        replace={false}
+                        to="/signup"
+                    >
+                        No account? Signup Here
+                    </Link>
+                </p>
+            </div>
+            <div />
+        </div>
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="container"
+>
+      <div
+            className="centeredContainer"
+      >
+            <div
+                  className="borderBox "
+            >
+                  <div
+                        className="loginFormHeader"
+                  >
+                        <div
+                              className="loginIcon"
+                        >
+                              <i
+                                    className="fa fa-shield fa-5x"
+                              />
+                        </div>
+                  </div>
+                  <form
+                        id="login"
+                        onSubmit={[Function]}
+                  >
+                        <div
+                              className="form-group"
+                        >
+                              <div
+                                    className="input-group"
+                              >
+                                    <div
+                                          className="input-group-addon"
+                                    >
+                                          <i
+                                                className="fa fa-envelope"
+                                          />
+                                    </div>
+                                    <input
+                                          className="form-control"
+                                          name="email"
+                                          onChange={[Function]}
+                                          placeholder="Email"
+                                          type="text"
+                                          value=""
+                                    />
+                              </div>
+                        </div>
+                        <div
+                              className="form-group"
+                        >
+                              <div
+                                    className="input-group"
+                              >
+                                    <div
+                                          className="input-group-addon"
+                                    >
+                                          <i
+                                                className="fa fa-lock fa-1x"
+                                          />
+                                    </div>
+                                    <input
+                                          className="form-control"
+                                          name="password"
+                                          onChange={[Function]}
+                                          placeholder="Password"
+                                          type="password"
+                                          value=""
+                                    />
+                              </div>
+                        </div>
+                        <div
+                              className="buttonGroup"
+                        >
+                              <div
+                                    className="form-group buttonGroup"
+                              >
+                                    <input
+                                          className="signin btn btn-primary"
+                                          type="submit"
+                                          value="Sign In"
+                                    />
+                              </div>
+                        </div>
+                  </form>
+                  <div>
+                        <button
+                              className="google btn btn-social btn-google"
+                              onClick={undefined}
+                        >
+                              <span
+                                    className="fa fa-google"
+                              />
+                              Login With Google
+                        </button>
+                  </div>
+                  <div>
+                        <p
+                              className="signupRedirect"
+                        >
+                              <Link
+                                    replace={false}
+                                    to="/signup"
+                              >
+                                    No account? Signup Here
+                              </Link>
+                        </p>
+                  </div>
+                  <div />
+            </div>
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <Login
+        email=""
+        error=""
+        handleChange={[Function]}
+        handleSubmit={[Function]}
+        password=""
+/>,
+      "_debugID": 34,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "email": "",
+          "error": "",
+          "handleChange": [Function],
+          "handleSubmit": [Function],
+          "password": "",
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="container"
+>
+          <div
+                    className="centeredContainer"
+          >
+                    <div
+                              className="borderBox "
+                    >
+                              <div
+                                        className="loginFormHeader"
+                              >
+                                        <div
+                                                  className="loginIcon"
+                                        >
+                                                  <i
+                                                            className="fa fa-shield fa-5x"
+                                                  />
+                                        </div>
+                              </div>
+                              <form
+                                        id="login"
+                                        onSubmit={[Function]}
+                              >
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-envelope"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="email"
+                                                                      onChange={[Function]}
+                                                                      placeholder="Email"
+                                                                      type="text"
+                                                                      value=""
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-lock fa-1x"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="password"
+                                                                      onChange={[Function]}
+                                                                      placeholder="Password"
+                                                                      type="password"
+                                                                      value=""
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="buttonGroup"
+                                        >
+                                                  <div
+                                                            className="form-group buttonGroup"
+                                                  >
+                                                            <input
+                                                                      className="signin btn btn-primary"
+                                                                      type="submit"
+                                                                      value="Sign In"
+                                                            />
+                                                  </div>
+                                        </div>
+                              </form>
+                              <div>
+                                        <button
+                                                  className="google btn btn-social btn-google"
+                                                  onClick={undefined}
+                                        >
+                                                  <span
+                                                            className="fa fa-google"
+                                                  />
+                                                  Login With Google
+                                        </button>
+                              </div>
+                              <div>
+                                        <p
+                                                  className="signupRedirect"
+                                        >
+                                                  <Link
+                                                            replace={false}
+                                                            to="/signup"
+                                                  >
+                                                            No account? Signup Here
+                                                  </Link>
+                                        </p>
+                              </div>
+                              <div />
+                    </div>
+          </div>
+</div>,
+        "_debugID": 35,
+        "_renderedOutput": <div
+          className="container"
+>
+          <div
+                    className="centeredContainer"
+          >
+                    <div
+                              className="borderBox "
+                    >
+                              <div
+                                        className="loginFormHeader"
+                              >
+                                        <div
+                                                  className="loginIcon"
+                                        >
+                                                  <i
+                                                            className="fa fa-shield fa-5x"
+                                                  />
+                                        </div>
+                              </div>
+                              <form
+                                        id="login"
+                                        onSubmit={[Function]}
+                              >
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-envelope"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="email"
+                                                                      onChange={[Function]}
+                                                                      placeholder="Email"
+                                                                      type="text"
+                                                                      value=""
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-lock fa-1x"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="password"
+                                                                      onChange={[Function]}
+                                                                      placeholder="Password"
+                                                                      type="password"
+                                                                      value=""
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="buttonGroup"
+                                        >
+                                                  <div
+                                                            className="form-group buttonGroup"
+                                                  >
+                                                            <input
+                                                                      className="signin btn btn-primary"
+                                                                      type="submit"
+                                                                      value="Sign In"
+                                                            />
+                                                  </div>
+                                        </div>
+                              </form>
+                              <div>
+                                        <button
+                                                  className="google btn btn-social btn-google"
+                                                  onClick={undefined}
+                                        >
+                                                  <span
+                                                            className="fa fa-google"
+                                                  />
+                                                  Login With Google
+                                        </button>
+                              </div>
+                              <div>
+                                        <p
+                                                  className="signupRedirect"
+                                        >
+                                                  <Link
+                                                            replace={false}
+                                                            to="/signup"
+                                                  >
+                                                            No account? Signup Here
+                                                  </Link>
+                                        </p>
+                              </div>
+                              <div />
+                    </div>
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Login
+    email=""
+    error=""
+    handleChange={[Function]}
+    handleSubmit={[Function]}
+    password=""
+/>,
+}
+`;

@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - 6
+
+services:
+  - postgresql
+
+addons:
+  postgresql: "9.6"
+
+before_script:
+  - psql -c 'create database jwt_app_test;' -U postgres
+
+cache:
+  directories:
+    - node_modules
+
+script:
+  - npm run build
+  - npm test
