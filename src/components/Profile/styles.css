@@ -1,13 +1,16 @@
 .profilePic {
   display: flex;
-  border-radius: 2px;
+  border-radius: 300px;
   width: 300px;
   height: 300px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .userName {
+  font-family: "Rock Salt", cursive;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.8em;
   font-style: italic;
   font-weight: bold;
 }
@@ -21,8 +24,10 @@
   width: 300px;
   height: 45px;
   border-radius: 2px;
+  margin-bottom: 2em;
 }
 
 #logoutText {
+  font-family: "Rock Salt", cursive;
   font-size: 1.2em;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import securityShark from "./img/securityshark.jpg";
 import "./LoginPage.css";
 
 export default function Signup(props) {
@@ -8,9 +9,10 @@ export default function Signup(props) {
     <div className="container ">
       <div className="centeredContainer">
         <div className="borderBox ">
+          <h3 className="headerText">sign-up</h3>
           <div className="loginFormHeader">
             <div className="loginIcon">
-              <i className="fa fa-shield fa-5x" />
+              <img src={securityShark} />
             </div>
           </div>
 

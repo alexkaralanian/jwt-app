@@ -1,16 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import {GoogleSignupButton} from './SignupButtons'
 import { Link } from "react-router-dom";
+import securityShark from "./img/securityshark.jpg";
 import "./LoginPage.css";
 
 const Login = props => (
   <div className="container">
     <div className="centeredContainer">
       <div className="borderBox ">
+        <h3 className="headerText">sign-in</h3>
         <div className="loginFormHeader">
           <div className="loginIcon">
-            <i className="fa fa-shield fa-5x" />
+            <img src={securityShark} />
+            {/*<i className="fa fa-shield fa-5x" /> */}
           </div>
         </div>
 
@@ -57,14 +59,14 @@ const Login = props => (
           </div>
         </form>
 
-        <div>
+        {/* <div>
           <button
             className="google btn btn-social btn-google"
             onClick={props.googleAuth}
           >
             <span className="fa fa-google" />Login With Google
           </button>
-        </div>
+        </div> */}
 
         <div>
           <p className="signupRedirect">

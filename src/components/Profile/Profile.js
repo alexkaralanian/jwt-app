@@ -14,17 +14,19 @@ const Profile = ({ isAuthed, user, logout }) =>
   ) : (
     <div className="container">
       <div className="centeredContainer">
-        <div className="userNameContainer">
-          <h3 className="userName">Hello, {user.firstName}!</h3>
+        <div className="borderBox ">
+          <div className="userNameContainer">
+            <h3 className="userName">Hello, {user.firstName}!</h3>
+          </div>
+          <img
+            className="profilePic"
+            alt="user profile pic"
+            src={user.photo ? user.photo : profilePic}
+          />
+          <button className="logout btn btn-primary" onClick={logout}>
+            <span id="logoutText">LOGOUT</span>
+          </button>
         </div>
-        <img
-          className="profilePic"
-          alt="user profile pic"
-          src={user.photo ? user.photo : profilePic}
-        />
-        <button className="logout btn btn-primary" onClick={logout}>
-          <span id="logoutText">LOGOUT</span>
-        </button>
       </div>
     </div>
   );
